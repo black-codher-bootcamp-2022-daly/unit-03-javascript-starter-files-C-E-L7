@@ -2,7 +2,7 @@
 const userName = "Carrera";
 
 function sayHey() {
-  console.log("Hey" + userName);
+  console.log("Hey " + " " + userName);
 }
 
 function conversation() {
