@@ -17,8 +17,8 @@ conversation();
 // This is a comment in JavaScript Task 3 of session 3 below
 
 function futureAge(name, age) {
-  const future = age + 5;
-  return "Hi " + name + " You will be " + future + " in 5 years.";
+  const futureCal = age + 5;
+  return "Hi " + name + " You will be " + futureCal + " in 5 years.";
 }
 
 console.log(futureAge("Carrera", 36));
