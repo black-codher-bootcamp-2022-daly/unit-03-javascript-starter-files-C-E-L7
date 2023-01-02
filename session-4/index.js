@@ -37,23 +37,35 @@ console.log(biography(personC));
 // ****************************************************TASK 2 - MATHS OPERATORS****************************************************
 // ***Uncomment the code below to begin the task***
 
-// const x = 6;
-// const y = 4;
+const x = 6;
+const y = 4;
 
-// const addition = x + y;
+const addition = x + y;
 
-// console.log("Addition: x + y " + addition);
+console.log("Addition: x + y " + addition);
 
-// const subtraction = x - y;
+const subtraction = x - y;
 
-// console.log("Subtraction: x - y " + subtraction);
+console.log("Subtraction: x - y " + subtraction);
 
-// const multiplication = x * y;
+const multiplication = x * y;
 
-// console.log("multiplication: x * y " + multiplication);
+console.log("multiplication: x * y " + multiplication);
 
-// const division = x * y;
+const division = x * y;
 
-// console.log("Division: x + y " + division);
+console.log("Division: x + y " + division);
+
+const squared = x ** x;
+
+console.log("squared: x ** x " + squared);
+
+const multDiv = (x * y) / x;
+
+console.log("multDiv: x * y / x " + multDiv);
+
+const add = x + x + y;
+
+console.log("add: x + x + y " + add);
 
 // ****************************************************TASK 3****************************************************
