@@ -69,3 +69,10 @@ const add = x + x + y;
 console.log("add: x + x + y " + add);
 
 // ****************************************************TASK 3****************************************************
+
+const age = 22;
+const minDriveAge = 16;
+
+const drivingAge = age > minDriveAge;
+
+console.log("I am old enough to drive a car. " + drivingAge);
