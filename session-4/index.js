@@ -76,3 +76,38 @@ const minDriveAge = 16;
 const drivingAge = age > minDriveAge;
 
 console.log("I am old enough to drive a car. " + drivingAge);
+
+// Calculator -  Homework task found below this line
+
+function addition(x, y) {
+  return x + y;
+}
+function subtraction(x, y) {
+  return x - y;
+}
+function multiplication(x, y) {
+  return x * y;
+}
+function division(x, y) {
+  return x / y;
+}
+const calculator = {
+  add: addition,
+  subtract: subtraction,
+  multiply: multiplication,
+  divide: division,
+};
+
+console.log(calculator.multiply(5, 8));
+
+//*****************************************************************************************************************
+
+// Homework task - Who is older ?? below this line
+
+function whoIsOlder(personA, personB) {
+  const ageDifference = personA.age - personB.age;
+
+  return `${personA.name} is ${ageDifference} years older than ${personB.name}`;
+}
+
+console.log(whoIsOlder(personA, personB));
