@@ -21,6 +21,9 @@ function getGrade(total) {
   }
 }
 
+// Task 2 of session 5 below
+// *****************************************************************
+
 getGrade(75);
 
 function getGrade(total) {
@@ -48,4 +51,4 @@ function getGrade(total) {
   }
 }
 
-getGrade();
+getGrade(ungraded);
